@@ -35,10 +35,10 @@
 //     return Math.floor(Math.random() * (n + 1));
 // }
 
-function  makeGame(){
+function  makeGame(upperbound){
   game = {}
-  makeGame.upper = upper;
-  makeGame.rand = Math.floor(Math.random() * (n + 1)); // randInt(n)
+  game.upper = upper;
+  game.rand = Math.floor(Math.random() * (n + 1)); // randInt(n)
   counter = 0
 
   return makeGame;
