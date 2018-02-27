@@ -11,14 +11,19 @@
        var count = 1
 
         for (var i = 0; i < input.length; i++) {
-   				input.repeat()
+        	
    				accum = input[i].repeat(count++)
 				        		
         	}
-   				return accum + input;	
+   				return accum;	
        	}  
 
-       	
+  
+
+
+//Nested Forloop for the first letter .toUpperCase
+//next forloop for the rest of the letters that follow
+      
 
       //  function accum(input){
       //   //your code is here
